@@ -3,7 +3,7 @@ from ..features.feature_engineering import feature_engineering
 from app import cos, init_cols
 
 
-def make_dataset(data, model_info, cols_to_remove, model_type='RandomForest'):
+def make_dataset(data, model_info, cols_to_remove, model_type='LogisticRegression'):
 
     """
         Función que permite crear el dataset usado para el entrenamiento
